@@ -1,0 +1,41 @@
+.details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.details small {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.details p:first-child {
+  margin-top: 0;
+}
+
+.details p {
+  font-size: 1.1rem;
+}
+
+.col {
+  max-width: 320px;
+  margin: .5rem;
+}
+
+.img {
+  width: 80%;
+  border-radius: .35rem;
+  max-width: 230px; 
+  max-height: 320px;
+  box-shadow: 5px 7px 24px #8C0303;
+}
+
+.imgBg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  opacity: .35;
+  z-index: -10;
+  filter: blur(3px) grayscale(.5);
+}

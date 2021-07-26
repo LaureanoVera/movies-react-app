@@ -1,0 +1,15 @@
+.loading {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  margin-top: 1rem;
+  animation: loading 1s infinite;
+  opacity: .5;
+  filter: drop-shadow(0 0 7px #8C0303);
+}
+
+@keyframes loading {
+  to { transform: rotate(360deg)}
+}

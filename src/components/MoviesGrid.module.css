@@ -1,0 +1,13 @@
+.movies {
+  padding: 0 .5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, calc(230px + 1rem));
+  gap: 1rem;
+  justify-content: center;
+}
+
+@media screen and (max-width: 560px) {
+  .movies {
+    grid-template-columns: 100%;
+  }
+}
