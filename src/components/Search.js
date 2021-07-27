@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styles from "./Search.module.css";
 import { ImSearch } from "react-icons/im";
 import { useHistory } from "react-router";
